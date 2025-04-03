@@ -54,7 +54,7 @@ nav ul li a {
 .finance-insight {
     position: relative;
     height: 300px;
-    background: url('https://raw.githubusercontent.com/Financeguru99/Finance-web/main/banner.jpeg') 
+    background: url('https://raw.githubusercontent.com/Financeguru99/Finance-web/main/finance-banner.jpeg') 
                 no-repeat center center/cover;
     display: flex;
     justify-content: center;
