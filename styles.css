@@ -25,7 +25,7 @@ nav ul li a {
 .hero {
     position: relative;
     height: 300px;
-    background: url('bull-bear.jpg');
+    background: url('bull-bear.webp');
     display: flex;
     justify-content: center;
     align-items: center;
