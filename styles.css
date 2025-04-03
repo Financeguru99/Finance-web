@@ -23,10 +23,20 @@ nav ul li a {
     text-decoration: none;
 }
 .hero {
+    position: relative;
+    height: 300px;
+    background: url('bull-bear.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 50px;
-    background: #007bff;
     color: white;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
 }
 .widget, .contact {
     text-align: center;
