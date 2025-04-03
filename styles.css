@@ -1,27 +1,37 @@
+  /* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
+
+/* Header */
 header {
     background: #333;
     color: white;
     padding: 10px 20px;
     text-align: center;
 }
+
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
+
 nav ul li {
     display: inline;
     margin: 0 10px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
 }
+
+/* Hero Section */
 .hero {
     position: relative;
     height: 300px;
@@ -38,6 +48,23 @@ nav ul li a {
     padding: 20px;
     border-radius: 10px;
 }
+
+/* Finance Insight Section */
+.finance-insight {
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+    background: url('https://raw.githubusercontent.com/Financeguru99/Finance-web/main/banner.jpeg') 
+                no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Widget & Contact */
 .widget, .contact {
     text-align: center;
     padding: 20px;
@@ -45,6 +72,8 @@ nav ul li a {
     margin: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Contact Form */
 .contact form {
     display: flex;
     flex-direction: column;
@@ -52,11 +81,13 @@ nav ul li a {
     max-width: 300px;
     margin: auto;
 }
+
 .contact input, .contact textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
 }
+
 .contact button {
     background: #007bff;
     color: white;
@@ -64,6 +95,8 @@ nav ul li a {
     border: none;
     cursor: pointer;
 }
+
+/* Footer */
 footer {
     text-align: center;
     padding: 10px;
